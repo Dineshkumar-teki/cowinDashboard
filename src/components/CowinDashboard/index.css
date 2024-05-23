@@ -1,0 +1,37 @@
+/* Write your CSS here */
+.navbar {
+  display: flex;
+  gap: 0.7rem;
+  align-items: center;
+  height: 10vh;
+  background-color: #161625;
+  padding: 0 5rem;
+}
+.navbar > img {
+  width: 40px;
+}
+.navbar > h1 {
+  color: #2cc6c6;
+}
+.bgContainer {
+  background-color: #161625;
+  padding: 2rem 5rem;
+  color: silver;
+  min-height: 90vh;
+}
+.loader {
+  display: grid;
+  place-content: center;
+  min-height: 90vh;
+}
+.failureView {
+  display: grid;
+  place-items: center;
+  min-height: 90vh;
+}
+.failureView > img {
+  width: 70%;
+}
+.failureView > h1 {
+  color: white;
+}

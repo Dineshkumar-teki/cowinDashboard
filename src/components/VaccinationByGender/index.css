@@ -1,0 +1,9 @@
+/* Write your CSS here */
+.PieChart {
+  background-color: #1c1c2b;
+  padding: 2rem 1rem;
+  margin-top: 1rem;
+  border-radius: 10px;
+  display: grid;
+  place-items: center;
+}
